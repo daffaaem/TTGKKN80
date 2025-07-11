@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>UMKM Keren Montok</title>
+        <title>UMKM Wonorejo</title>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-white text-gray-800 font-sans">
+        <?php $this->load->view('User/templates/header'); ?>
 
         <!-- HERO -->
         <section class="bg-gradient-to-br from-orange-500 to-yellow-400 py-20 text-white">
@@ -65,11 +66,6 @@
             Mulai Belanja
         </button>
         </section>
-
-        <!-- FOOTER -->
-        <footer class="py-6 bg-gray-800 text-center text-white text-sm">
-        &copy; 2025 UMKM Keren Montok. All rights reserved.
-        </footer>
-        
+        <?php $this->load->view('User/templates/footer'); ?>
     </body>
     </html>
